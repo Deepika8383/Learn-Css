@@ -1,0 +1,82 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f7f8fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+  }
+  
+  .todo-container {
+    background: blanchedalmond;
+    padding: 50px 30px;
+    border-radius: 12px 20px;
+    box-shadow: 20px 40px 30px rgba(112, 6, 6, 0.1);
+    width: 350px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .input-group {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  #taskInput {
+    flex: 2;
+    padding: 8px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: 0.5px solid rgb(83, 10, 82);
+  }
+  
+  #addBtn {
+    margin-left: 8px;
+    padding: 8px 12px;
+    border: none;
+    background: #4CAF50;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  #addBtn:hover {
+    background: #45a049;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #f0f0f0;
+    margin-bottom: 8px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    transition: background 0.3s;
+  }
+  
+  li.completed span {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  li button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #555;
+  }
+  
+  li button:hover {
+    color: red;
+  }
+  
